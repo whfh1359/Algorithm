@@ -1,7 +1,7 @@
 import sys
 sys.stdin = open("in1.txt", "rt")
 
-a=list(str(input()))
+a=input()
 stack = []
 s=0
 e=0
