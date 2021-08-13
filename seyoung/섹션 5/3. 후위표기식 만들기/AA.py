@@ -7,11 +7,22 @@ res = ''
 stack= []
 for x in a:
     if x.isdecimal():
-        print(x)
+        res += x
     elif x =='(':
         stack.append(x)
-    elif x == '+' or x=='-':
-        stack.append(x)
     elif x=='*' or x=='/':
-        stack.append(1)
-print(stack)
+        while stack and (stack[-1]=="*" or stack[-1] == '/'):
+            res += stack.pop()
+        stack.append(x)
+    elif x=='+' or x=='-':
+        while stack and stack[-1] != '(':
+            res += stack.pop()
+        stack.append(x)
+    elif x==')':
+        while stack and stack[-1] != '(':
+            res +=stack.pop()
+        stack.pop()
+
+while stack:
+    res += stack.pop()
+print(res)
