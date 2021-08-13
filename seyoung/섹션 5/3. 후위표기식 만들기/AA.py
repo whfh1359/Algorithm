@@ -2,7 +2,6 @@ import sys
 sys.stdin = open("in1.txt", "rt")
 
 a=input()
-print(a)
 res = ''
 stack= []
 for x in a:
