@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4aab60a6-a0c1-431d-9ba1-746dfd216fe9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/coding.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seyoung/kakao_coding_test/choose_doll.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seyoung/kakao_coding_test/tuple.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +19,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -92,28 +97,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="Python.choose_doll">
-    <configuration name="AA (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="파이썬 알고리즘 문제풀이(코딩테스트 대비)" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/섹션 4/7. 창고 정리" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/섹션 4/7. 창고 정리/AA.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.tuple">
     <configuration name="AA (3)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="파이썬 알고리즘 문제풀이(코딩테스트 대비)" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -219,6 +203,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="tuple" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="파이썬 알고리즘 문제풀이(코딩테스트 대비)" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python3.6" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/seyoung/kakao_coding_test" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/seyoung/kakao_coding_test/tuple.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="Tox" factoryName="Tox">
       <module name="파이썬 알고리즘 문제풀이(코딩테스트 대비)" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -296,11 +301,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.tuple" />
         <item itemvalue="Python.choose_doll" />
         <item itemvalue="Python.AA (4)" />
         <item itemvalue="Python.AA (5)" />
         <item itemvalue="Python.AA (3)" />
-        <item itemvalue="Python.AA (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -434,7 +439,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628756910003</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="2021-08-25">
+      <created>1629873111289</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1629873111289</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -469,7 +481,8 @@
     <MESSAGE value="2021-08-10" />
     <MESSAGE value="latest" />
     <MESSAGE value="2021-08-12" />
-    <option name="LAST_COMMIT_MESSAGE" value="2021-08-12" />
+    <MESSAGE value="2021-08-25" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021-08-25" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/섹션 4/2. 랜선자르기/AA.py" />
