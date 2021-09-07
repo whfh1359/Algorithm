@@ -6,7 +6,7 @@ N,T = map(int, input().split())
 a = []
 for _ in range(N):
     a.append(list(map(int, input().split())))
-print(a)
+#print(a)
 pos = [start_pos+speed*T for start_pos, speed in a]
 
 for i in range(N-1):
