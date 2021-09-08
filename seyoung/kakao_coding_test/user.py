@@ -36,8 +36,3 @@ def solution(user_id, banned_id):
 #            print(x)
 #            cnt += 1
     return cnt
-
-#a = solution(["frodo", "fradi", "crodo", "abc123", "frodoc"],["fr*d*", "abc1**"])
-#a = solution(["frodo", "fradi", "crodo", "abc123", "frodoc"], ["*rodo", "*rodo", "******"])
-a = solution(["frodo", "fradi", "crodo", "abc123", "frodoc"], ["fr*d*", "*rodo", "******", "******"])
-print(a)
