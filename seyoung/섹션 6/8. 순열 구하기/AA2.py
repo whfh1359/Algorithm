@@ -1,8 +1,8 @@
 import sys
 sys.stdin = open("in1.txt","rt")
 
-def DFS(L,total):
-    if L==3:
+def DFS(L,total,count):
+    if L==count:
         print(res)
         result.append(total)
         return
@@ -12,14 +12,15 @@ def DFS(L,total):
                 check[i] = 1
                 res[L] = i+1
                 total += arr[i]
-                DFS(L+1,total)
+                DFS(L+1,total,count)
                 check[i] = 0
                 total -= arr[i]
 
 if __name__=="__main__":
-    arr = [1,2,3,4,5]
+    arr = [1,2,3,4]
     check = [0]*len(arr)
-    res = [0]*3
     result = []
-    DFS(0,0)
+    for i in range(1,len(arr)+1):
+        res = [0] * i
+        DFS(0,0,i)
     print(result)
