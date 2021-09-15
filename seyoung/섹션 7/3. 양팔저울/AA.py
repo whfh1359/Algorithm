@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open("in1.txt", "rt")
+#sys.stdin = open("in1.txt", "rt")
 
 def DFS(L,sum):
     global res
