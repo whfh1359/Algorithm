@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4aab60a6-a0c1-431d-9ba1-746dfd216fe9" name="Changes" comment="2021-08-25">
-      <change afterPath="$PROJECT_DIR$/PiperChang/BOJ_Study/2438.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PiperChang/BOJ_Study/2438.py" beforeDir="false" afterPath="$PROJECT_DIR$/PiperChang/BOJ_Study/2438.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -380,7 +380,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653376158294</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="2021-08-25">
+      <created>1653465237987</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1653465237987</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="ToolWindowManager">
