@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4aab60a6-a0c1-431d-9ba1-746dfd216fe9" name="Changes" comment="2021-08-25">
-      <change afterPath="$PROJECT_DIR$/PiperChang/BOJ_Study/최장dirname.py" afterDir="false" />
+    <list default="true" id="4aab60a6-a0c1-431d-9ba1-746dfd216fe9" name="Changes" comment="ㄷㅂㄱㅇ 코테 최장 dir 경로 찾는 문제. 최초 시도는 최상단에서 일일이 최하단으로 dfs 하는 것으로 했으나, 효율성 문제 해결이 안되었음. 그래서 반대로 최 하단 부터 상위로 올라가면서 dfs하고, 해당 dir에서 root까지 갔을때의 길이를 memorization해서 해결함.&#10; root -&gt; leaf로 하게 되면, 하위 node를 전부 봐야 답을 알 수 있지만, leaf -&gt; root로 가면, 한번만 보면 됨">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PiperChang/BOJ_Study/1929.py" beforeDir="false" afterPath="$PROJECT_DIR$/PiperChang/BOJ_Study/1929.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PiperChang/BOJ_Study/BFS, DFS/2178.py" beforeDir="false" afterPath="$PROJECT_DIR$/PiperChang/BOJ_Study/BFS, DFS/2178.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +112,7 @@
       <recent name="C:\Users\CHANGHAE\OneDrive\바탕 화면\Projects\Algorithm\PiperChang\BOJ_Study\BFS, DFS" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.10872">
+  <component name="RunManager" selected="Python.2178">
     <configuration name="10872" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="파이썬 알고리즘 문제풀이(코딩테스트 대비)" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -221,8 +220,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.10872" />
         <item itemvalue="Python.2178" />
+        <item itemvalue="Python.10872" />
         <item itemvalue="Python.1260.py" />
         <item itemvalue="Python.tuple" />
         <item itemvalue="Python.choose_doll" />
@@ -395,7 +394,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653484544478</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="ㄷㅂㄱㅇ 코테 최장 dir 경로 찾는 문제. 최초 시도는 최상단에서 일일이 최하단으로 dfs 하는 것으로 했으나, 효율성 문제 해결이 안되었음. 그래서 반대로 최 하단 부터 상위로 올라가면서 dfs하고, 해당 dir에서 root까지 갔을때의 길이를 memorization해서 해결함.&#10; root -&gt; leaf로 하게 되면, 하위 node를 전부 봐야 답을 알 수 있지만, leaf -&gt; root로 가면, 한번만 보면 됨">
+      <created>1653542010402</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1653542010403</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -442,7 +448,8 @@
     <MESSAGE value="latest" />
     <MESSAGE value="2021-08-12" />
     <MESSAGE value="2021-08-25" />
-    <option name="LAST_COMMIT_MESSAGE" value="2021-08-25" />
+    <MESSAGE value="ㄷㅂㄱㅇ 코테 최장 dir 경로 찾는 문제. 최초 시도는 최상단에서 일일이 최하단으로 dfs 하는 것으로 했으나, 효율성 문제 해결이 안되었음. 그래서 반대로 최 하단 부터 상위로 올라가면서 dfs하고, 해당 dir에서 root까지 갔을때의 길이를 memorization해서 해결함.&#10; root -&gt; leaf로 하게 되면, 하위 node를 전부 봐야 답을 알 수 있지만, leaf -&gt; root로 가면, 한번만 보면 됨" />
+    <option name="LAST_COMMIT_MESSAGE" value="ㄷㅂㄱㅇ 코테 최장 dir 경로 찾는 문제. 최초 시도는 최상단에서 일일이 최하단으로 dfs 하는 것으로 했으나, 효율성 문제 해결이 안되었음. 그래서 반대로 최 하단 부터 상위로 올라가면서 dfs하고, 해당 dir에서 root까지 갔을때의 길이를 memorization해서 해결함.&#10; root -&gt; leaf로 하게 되면, 하위 node를 전부 봐야 답을 알 수 있지만, leaf -&gt; root로 가면, 한번만 보면 됨" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/섹션 4/2. 랜선자르기/AA.py" />
