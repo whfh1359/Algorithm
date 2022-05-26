@@ -1,7 +1,4 @@
-
-
 '''
-# 헐...
 def prime(M,N):
 
     list = [i for i in range(2,N+1)]
@@ -36,19 +33,3 @@ def prime(M,N) :
         print(i)
 
 prime(M,N)
-'''
-def decimal(M,N):
-    list = [i for i in range(2,N+1)]
-    decimalList = [0 for i in range(N)]
-    for i in range(M) :
-
-        def dcm(M, N):
-            for i in range(M, N + 1):
-                if i == 1:
-                    continue
-                for j in range(2, int(i ** 0.5) + 1):
-                    if i % j == 0:
-                        break;
-                else:
-                    print(i)
-'''
