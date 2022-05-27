@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4aab60a6-a0c1-431d-9ba1-746dfd216fe9" name="Changes" comment="ㄷㅂㄱㅇ 코테 최장 dir 경로 찾는 문제. 최초 시도는 최상단에서 일일이 최하단으로 dfs 하는 것으로 했으나, 효율성 문제 해결이 안되었음. 그래서 반대로 최 하단 부터 상위로 올라가면서 dfs하고, 해당 dir에서 root까지 갔을때의 길이를 memorization해서 해결함.&#10; root -&gt; leaf로 하게 되면, 하위 node를 전부 봐야 답을 알 수 있지만, leaf -&gt; root로 가면, 한번만 보면 됨">
+    <list default="true" id="4aab60a6-a0c1-431d-9ba1-746dfd216fe9" name="Changes" comment="ㄷㅂㄱㅇ 코테 최장 dir 경로 찾는 문제. 최초 시도는 최상단에서 일일이 최하단으로 dfs 하는 것으로 했으나, 효율성 문제 해결이 안되었음. 그래서 반대로 최 하단 부터 상위로 올라가면서 dfs하고, 해당 dir에서 root까지 갔을때의 길이를 memorization해서 해결함.&#10; root -&gt; leaf로 하게 되면, 하위 node를 전부 봐야 답을 알 수 있지만, leaf -&gt; root로 가면, 한번만 보면 됨&#10; &#10; &#10; 2178 =&gt;&#10; matrix 방문한 걸 언제 바꾸는지에 따라서 효율성이 전혀 달라지나 봄.">
+      <change afterPath="$PROJECT_DIR$/PiperChang/BOJ_Study/2839.PY" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PiperChang/BOJ_Study/BFS, DFS/2178.py" beforeDir="false" afterPath="$PROJECT_DIR$/PiperChang/BOJ_Study/BFS, DFS/2178.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -401,7 +401,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653542010403</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="ㄷㅂㄱㅇ 코테 최장 dir 경로 찾는 문제. 최초 시도는 최상단에서 일일이 최하단으로 dfs 하는 것으로 했으나, 효율성 문제 해결이 안되었음. 그래서 반대로 최 하단 부터 상위로 올라가면서 dfs하고, 해당 dir에서 root까지 갔을때의 길이를 memorization해서 해결함.&#10; root -&gt; leaf로 하게 되면, 하위 node를 전부 봐야 답을 알 수 있지만, leaf -&gt; root로 가면, 한번만 보면 됨&#10; &#10; &#10; 2178 =&gt;&#10; matrix 방문한 걸 언제 바꾸는지에 따라서 효율성이 전혀 달라지나 봄.">
+      <created>1653550690842</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1653550690842</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -449,7 +456,8 @@
     <MESSAGE value="2021-08-12" />
     <MESSAGE value="2021-08-25" />
     <MESSAGE value="ㄷㅂㄱㅇ 코테 최장 dir 경로 찾는 문제. 최초 시도는 최상단에서 일일이 최하단으로 dfs 하는 것으로 했으나, 효율성 문제 해결이 안되었음. 그래서 반대로 최 하단 부터 상위로 올라가면서 dfs하고, 해당 dir에서 root까지 갔을때의 길이를 memorization해서 해결함.&#10; root -&gt; leaf로 하게 되면, 하위 node를 전부 봐야 답을 알 수 있지만, leaf -&gt; root로 가면, 한번만 보면 됨" />
-    <option name="LAST_COMMIT_MESSAGE" value="ㄷㅂㄱㅇ 코테 최장 dir 경로 찾는 문제. 최초 시도는 최상단에서 일일이 최하단으로 dfs 하는 것으로 했으나, 효율성 문제 해결이 안되었음. 그래서 반대로 최 하단 부터 상위로 올라가면서 dfs하고, 해당 dir에서 root까지 갔을때의 길이를 memorization해서 해결함.&#10; root -&gt; leaf로 하게 되면, 하위 node를 전부 봐야 답을 알 수 있지만, leaf -&gt; root로 가면, 한번만 보면 됨" />
+    <MESSAGE value="ㄷㅂㄱㅇ 코테 최장 dir 경로 찾는 문제. 최초 시도는 최상단에서 일일이 최하단으로 dfs 하는 것으로 했으나, 효율성 문제 해결이 안되었음. 그래서 반대로 최 하단 부터 상위로 올라가면서 dfs하고, 해당 dir에서 root까지 갔을때의 길이를 memorization해서 해결함.&#10; root -&gt; leaf로 하게 되면, 하위 node를 전부 봐야 답을 알 수 있지만, leaf -&gt; root로 가면, 한번만 보면 됨&#10; &#10; &#10; 2178 =&gt;&#10; matrix 방문한 걸 언제 바꾸는지에 따라서 효율성이 전혀 달라지나 봄." />
+    <option name="LAST_COMMIT_MESSAGE" value="ㄷㅂㄱㅇ 코테 최장 dir 경로 찾는 문제. 최초 시도는 최상단에서 일일이 최하단으로 dfs 하는 것으로 했으나, 효율성 문제 해결이 안되었음. 그래서 반대로 최 하단 부터 상위로 올라가면서 dfs하고, 해당 dir에서 root까지 갔을때의 길이를 memorization해서 해결함.&#10; root -&gt; leaf로 하게 되면, 하위 node를 전부 봐야 답을 알 수 있지만, leaf -&gt; root로 가면, 한번만 보면 됨&#10; &#10; &#10; 2178 =&gt;&#10; matrix 방문한 걸 언제 바꾸는지에 따라서 효율성이 전혀 달라지나 봄." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/섹션 4/2. 랜선자르기/AA.py" />
