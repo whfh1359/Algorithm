@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4aab60a6-a0c1-431d-9ba1-746dfd216fe9" name="Changes" comment="2839">
+    <list default="true" id="4aab60a6-a0c1-431d-9ba1-746dfd216fe9" name="Changes" comment="2839 설탕배달">
+      <change afterPath="$PROJECT_DIR$/PiperChang/BOJ_Study/11399.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PiperChang/BOJ_Study/13460.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PiperChang/BOJ_Study/2839.PY" beforeDir="false" afterPath="$PROJECT_DIR$/PiperChang/BOJ_Study/2839.PY" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +113,7 @@
       <recent name="C:\Users\CHANGHAE\OneDrive\바탕 화면\Projects\Algorithm\PiperChang\BOJ_Study\BFS, DFS" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.2839.PY">
+  <component name="RunManager" selected="Python.11399">
     <configuration name="10872" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="파이썬 알고리즘 문제풀이(코딩테스트 대비)" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -126,6 +127,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="C:\Users\CHANGHAE\OneDrive\바탕 화면\Projects\Algorithm\PiperChang\BOJ_Study\10872.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="11399" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="파이썬 알고리즘 문제풀이(코딩테스트 대비)" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\CHANGHAE\anaconda3\envs\Timer\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PiperChang/BOJ_Study" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PiperChang/BOJ_Study/11399.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -197,34 +219,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tuple" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="파이썬 알고리즘 문제풀이(코딩테스트 대비)" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="/usr/bin/python3.6" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/seyoung/kakao_coding_test" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/seyoung/kakao_coding_test/tuple.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.11399" />
         <item itemvalue="Python.2839.PY" />
         <item itemvalue="Python.2178" />
         <item itemvalue="Python.10872" />
         <item itemvalue="Python.1260.py" />
-        <item itemvalue="Python.tuple" />
       </list>
     </recent_temporary>
   </component>
@@ -429,7 +430,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653660827974</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="2839 설탕배달">
+      <created>1653743016081</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1653743016081</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -479,7 +487,8 @@
     <MESSAGE value="ㄷㅂㄱㅇ 코테 최장 dir 경로 찾는 문제. 최초 시도는 최상단에서 일일이 최하단으로 dfs 하는 것으로 했으나, 효율성 문제 해결이 안되었음. 그래서 반대로 최 하단 부터 상위로 올라가면서 dfs하고, 해당 dir에서 root까지 갔을때의 길이를 memorization해서 해결함.&#10; root -&gt; leaf로 하게 되면, 하위 node를 전부 봐야 답을 알 수 있지만, leaf -&gt; root로 가면, 한번만 보면 됨" />
     <MESSAGE value="ㄷㅂㄱㅇ 코테 최장 dir 경로 찾는 문제. 최초 시도는 최상단에서 일일이 최하단으로 dfs 하는 것으로 했으나, 효율성 문제 해결이 안되었음. 그래서 반대로 최 하단 부터 상위로 올라가면서 dfs하고, 해당 dir에서 root까지 갔을때의 길이를 memorization해서 해결함.&#10; root -&gt; leaf로 하게 되면, 하위 node를 전부 봐야 답을 알 수 있지만, leaf -&gt; root로 가면, 한번만 보면 됨&#10; &#10; &#10; 2178 =&gt;&#10; matrix 방문한 걸 언제 바꾸는지에 따라서 효율성이 전혀 달라지나 봄." />
     <MESSAGE value="2839" />
-    <option name="LAST_COMMIT_MESSAGE" value="2839" />
+    <MESSAGE value="2839 설탕배달" />
+    <option name="LAST_COMMIT_MESSAGE" value="2839 설탕배달" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/섹션 4/2. 랜선자르기/AA.py" />
