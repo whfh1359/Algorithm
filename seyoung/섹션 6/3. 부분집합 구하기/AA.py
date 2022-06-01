@@ -1,20 +1,21 @@
 import sys
-#sys.stdin=open("input.txt", "r")
-def DFS(v):
-    if v==n+1:
-        for i in range(1, n+1):
-            if ch[i]==1:
+from itertools import combinations
+sys.stdin = open("in1.txt", "rt")
+
+def DFS(x):
+    if x>n:
+        for i in range(1,n+1):
+            if check[i]==1:
                 print(i, end=' ')
         print()
     else:
-        ch[v]=1
-        DFS(v+1)
-        ch[v]=0
-        DFS(v+1)
+        check[x]=1 #집합에 속한다면
+        DFS(x+1)
+        check[x]=0 #집합에 안속한다면
+        DFS(x+1)
+
 
 if __name__=="__main__":
-    n=int(input())
-    ch=[0]*(n+1)
+    n = int(input())
+    check= [0]*(n+1)
     DFS(1)
-    
-
